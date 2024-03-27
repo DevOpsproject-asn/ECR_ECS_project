@@ -9,5 +9,5 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
 
 # Create an HTTP server
 httpd = HTTPServer(('0.0.0.0', 8000), SimpleHTTPRequestHandler)
-print("Server started on port 8000...")
+print("http Server started on port 8000...")
 httpd.serve_forever()
